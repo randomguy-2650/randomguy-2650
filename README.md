@@ -1,6 +1,6 @@
 # Hello there! 👋
 
-- Am a front‐end developer who mostly works with HTML, CSS, JavaScript and occasionally TypeScript. 
+- I am a front‐end developer who mostly works with HTML, CSS, JavaScript and occasionally TypeScript. 
 - Some (but not all) projects are available publicly through GitHub. 🐈‍⬛
 - Working on something… not publicly visible for prying eyes though. 👀
 
@@ -10,7 +10,7 @@
 
 ## Quotes
 
-“We autocorrect in RAM, but not in storage.” — Me, 2025
+> “We autocorrect in RAM, but not in storage.” — Me, 2025
 
 <!--
 A possibly useful comment?
