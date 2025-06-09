@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: "0 0 * * *" # At 00:00 UTC every day
+    - cron: "0 0 * * *"  # At 00:00 UTC every day
   workflow_dispatch:
   push:
     branches:
@@ -13,14 +13,15 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Generate simplified SVG snake game
-        uses: Platane/snk/svg-only@v3
+      - name: Generate snake game from contribution grid
+        uses: Platane/snk@v3.3.0
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
       - name: Upload SVG artifacts
-        uses: actions/upload-artifact@v3.0.0
+        uses: actions/upload-artifact@v3
         with:
-          name: github-snake-svg
-          path: dist/github-snake.svg
+          name: snake-svgs
+          path: dist/
