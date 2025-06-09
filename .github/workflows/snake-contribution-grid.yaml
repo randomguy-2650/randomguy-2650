@@ -1,6 +1,8 @@
+name: Generate GitHub Snake SVGs
+
 on:
   schedule:
-    - cron: "0 0 * * *"  # At 00:00 UTC every day
+    - cron: "0 0 * * *"   # At 00:00 UTC every day
   workflow_dispatch:
   push:
     branches:
@@ -8,29 +10,27 @@ on:
 
 jobs:
   generate:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
 
-      - name: Generate snake game from contribution grid
-        uses: Platane/snk@v3.3.0
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate GitHub snake SVGs
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
-      - name: Upload SVG artifacts
-        uses: actions/upload-artifact@v4.6.2
-        with:
-          name: snake-svgs
-          path: dist/
+
       - name: Commit and push SVG files
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add dist/github-snake.svg dist/github-snake-dark.svg
-          git commit -m "Update generated GitHub snake SVGs" || echo "No changes to commit"
+          git diff --cached --quiet || git commit -m "Auto-update GitHub snake SVGs"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
