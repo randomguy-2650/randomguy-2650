@@ -12,6 +12,12 @@
 
 > “We autocorrect in RAM, but not in storage.” — Me, 2025
 
+<picture>
+    <source srcset="./dist/github-snake-dark.svg" media="(prefers-color-scheme: dark)" />
+    <source srcset="./dist/github-snake.svg" media="(prefers-color-scheme: light)" />
+    <img src="./dist/github-snake.svg" alt="GitHub contribution grid as a snake game" />
+</picture>
+
 <!--
 A possibly useful comment?
 
