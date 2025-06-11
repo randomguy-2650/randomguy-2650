@@ -12,25 +12,10 @@
 
 > “We autocorrect in RAM, but not in storage.” — Me, 2025
 
+<!-- https://github.com/Platane/snk — Great work! -->
+
 <picture>
     <source srcset="./dist/github-snake-dark.svg" media="(prefers-color-scheme: dark)" />
     <source srcset="./dist/github-snake.svg" media="(prefers-color-scheme: light)" />
     <img src="./dist/github-snake.svg" alt="GitHub contribution grid as a snake game" />
 </picture>
-
-<!--
-A possibly useful comment?
-
-**randomguy-2650/randomguy-2650** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: This is basically a lack of privacy.
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
