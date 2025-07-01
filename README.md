@@ -2,7 +2,7 @@
 
 - I am a front‐end developer who mostly works with HTML, CSS, JavaScript and occasionally TypeScript. 
 - Some (but not all) projects are available publicly through GitHub. 🐈‍⬛
-- Working on something… not publicly visible for prying eyes though. 👀
+- Working on something… now available to the public! 👀
 
 ## Badges
 
