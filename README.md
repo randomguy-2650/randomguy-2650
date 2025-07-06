@@ -10,7 +10,8 @@
 
 ## Quotes
 
-> “We autocorrect in RAM, but not in storage.” — Me, 2025
+> “We autocorrect in RAM, but not in storage.”
+> — <cite>randomguy-2650, 2025</cite>
 
 <!-- https://github.com/Platane/snk — Great work! -->
 
