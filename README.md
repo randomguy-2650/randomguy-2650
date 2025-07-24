@@ -1,8 +1,8 @@
 # Hello there! 👋
 
 - I am a front‐end developer who mostly works with HTML, CSS, JavaScript and occasionally TypeScript. 
-- Some (but not all) projects are available publicly through GitHub. 🐈‍⬛
-- Working on something… now available to the public! 👀
+- Many projects are available publicly through GitHub. 🐈‍⬛
+- Working on Placer Toolkit… still a long way to go! 👀
 
 ## Badges
 
@@ -11,7 +11,7 @@
 ## Quotes
 
 > “We autocorrect in RAM, but not in storage.”
-> — <cite>randomguy-2650, 2025</cite>
+> <footer>— <cite>randomguy-2650, 2025</cite></footer>
 
 <!-- https://github.com/Platane/snk — Great work! -->
 
