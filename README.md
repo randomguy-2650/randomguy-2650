@@ -1,8 +1,9 @@
 # Welcome! 👋
 
-- I am a front‐end developer who mostly works with HTML, CSS, JavaScript and occasionally TypeScript. 
+- I am a front‐end developer who mostly works with HTML, CSS, JavaScript and occasionally TypeScript. 🌐
 - Many projects are available publicly through GitHub. 🐈‍⬛
 - Definitely not an expert at CI/CD. 🤖🤔
+- Everything here is metric‐only. Imperial units confuse me, and frankly, I’m okay with that. 🤷
 - Working on Placer Toolkit, which currently is in the pre‐release stage. 👀
 
 <!-- Hide this callout after this date: 1 March 2026 -->
