@@ -2,7 +2,7 @@
 
 - I am a front‐end developer who mostly works with HTML, CSS, JavaScript and occasionally TypeScript. 🌐
 - Many projects are available publicly through GitHub. 🐈‍⬛
-- Definitely not an expert at CI/CD. 🤖🤔
+- CI/CD automation confuses me, and i just end up troubleshooting compatibility errors. 🤖🤔
 - Everything here is metric‐only. Imperial units confuse me, and frankly, I’m okay with that. 🤷
 - Working on Placer Toolkit, which currently is in the pre‐release stage. 👀
 
@@ -17,6 +17,9 @@
 ## Quotes
 
 > “We autocorrect in RAM, but not in storage.”
+> <footer>— <cite>randomguy-2650, 2025</cite></footer>
+
+> “Immunity means nothing, until it strikes you.”
 > <footer>— <cite>randomguy-2650, 2025</cite></footer>
 
 <!-- https://github.com/Platane/snk — Great work! -->
