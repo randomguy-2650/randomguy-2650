@@ -2,7 +2,7 @@
 
 - I am a front‐end developer who mostly works with HTML, CSS, JavaScript and occasionally TypeScript. 🌐
 - Many projects are available publicly through GitHub. 🐈‍⬛
-- CI/CD automation confuses me, and i just end up troubleshooting compatibility errors. 🤖🤔
+- CI/CD automation confuses me, and I just end up troubleshooting compatibility errors. 🤖🤔
 - Everything here is metric‐only. Imperial units confuse me, and frankly, I’m okay with that. 🤷
 - Working on Placer Toolkit, which currently is in the pre‐release stage. 👀
 
