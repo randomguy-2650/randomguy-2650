@@ -96,7 +96,7 @@ This rant definitely needs to gain awareness—this is stupid.
                         <summary>Deutsch</summary>
                         <p>
                             Geschafft! Mein Rant ist ein wenig auf deutsche
-                            Bürokratie ausgerichtet, aber Sie werden ihn sofort
+                            Bürokratie ausgerichtet, aber du wirst ihn sofort
                             verstehen.
                         </p>
                         <h5>Präambel zu § 5 (DDG)</h5>
