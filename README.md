@@ -11,6 +11,4 @@ I don’t publish blogs because of other random law restrictions and such which 
 
 [![@randomguy-2650’s Astro contributions](https://astro.badg.es/v2/contributor/randomguy-2650.svg)](https://astro.badg.es/contributor/randomguy-2650/)
 
-<picture>
-    <img src="./dist/github-space-shooter.gif" alt="@randomguy-2650’s GitHub contribution grid as a space shooter game" />
-</picture>
+<img src="./dist/github-space-shooter.gif" alt="@randomguy-2650’s GitHub contribution grid as a space shooter game" />
