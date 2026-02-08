@@ -1,4 +1,4 @@
-name: Generate GitHub Snake SVGs
+name: Generate GitHub Space Shooter SVGs
 
 on:
   schedule:
@@ -17,20 +17,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate GitHub snake SVGs
-        uses: Platane/snk@v3
+      - name: Generate GitHub Space Shooter SVGs
+        uses: czl9707/gh-space-shooter@v1
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          output-path: "dist/github-space-shooter.gif"
+          strategy: "random"
 
       - name: Commit and push SVG files
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dist/github-snake.svg dist/github-snake-dark.svg
-          git diff --cached --quiet || git commit -m "Auto-update GitHub snake SVGs"
+          git add dist/github-space-shooter.svg
+          git diff --cached --quiet || git commit -m "Auto-update GitHub Space Shooter SVGs"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
