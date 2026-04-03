@@ -2,6 +2,8 @@
 
 Just look around, not sure what I can write here.
 
+Either way, I’m a front‐end developer, who is into <abbr title="User interface/User experience">UI/UX</abbr> design and prototype **without** [Figma](https://figma.com). I _sometimes_ (i.e., occasionally) touch back‐end code, but mostly only in open‐source projects.
+
 ## 🔑 GPG and SSH verification data
 
 <div>
