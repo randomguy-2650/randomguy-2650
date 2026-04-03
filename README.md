@@ -1,14 +1,45 @@
-# 👋 Welcome!
+# 👋 Welcome
 
-<!-- The <picture> tag is used to prevent GitHub from linking to the source of the EU flag asset. -->
-I’m **randomguy-2650**, a front‐end web developer based in the <picture><img src="./assets/flags/eu.svg" width="25" height="16" alt="European Union" /></picture>.
+Just look around, not sure what I can write here.
 
-Here, you can find some random stuff in the GitHub universe… with GDPR compliance to every little obscure extent.
+## 🔑 GPG and SSH verification data
 
-I don’t publish blogs because of other random law restrictions and such which impacts my privacy, I don’t like that, even if a website mandates the same thing with the § 5 DDG law.
+<div>
+    <h3 id="github-commit-ssh-signing-key">GitHub commit SSH signing key</h3>
+    <table aria-labelledby="github-commit-ssh-signing-key">
+        <tbody>
+          <tr>
+            <th scope="row" align="left" valign="top">🫆 Fingerprint</th>
+            <td><code>SHA256:STj+KkzWaU5cu89qOVwnbmIrUbl6t2RjxrKuPSpO9ws</code></td>
+          </tr>
+          <tr>
+            <th scope="row" align="left" valign="top">🔑 Key type</th>
+            <td>ED25519 (256‐bit)</td>
+          </tr>
+          <tr>
+            <th scope="row" align="left" valign="top">🖼️ Randomart</th>
+            <td><pre><code>+--[ED25519 256]--+
+|                 |
+|       .         |
+|      o ..       |
+|     . o+.       |
+|     o.+So       |
+|    o B.o.o .    |
+|   +.+E+o=Bo     |
+|   .+.+=@O+.     |
+|   ..o+OO@+.     |
++----[SHA256]-----+</code></pre></td>
+          </tr>
+        </tbody>
+    </table>
+</div>
 
 ## 📦 Some other cool stuff…
 
-[![@randomguy-2650’s Astro contributions](https://astro.badg.es/v2/contributor/randomguy-2650.svg)](https://astro.badg.es/contributor/randomguy-2650/)
+[![@randomguy-2650’s contributions to Astro as a badge](https://astro.badg.es/v2/contributor/randomguy-2650.svg)](https://astro.badg.es/contributor/randomguy-2650/)
 
-<img src="./dist/github-space-shooter.gif" alt="@randomguy-2650’s GitHub contribution grid as a space shooter game" />
+<picture>
+    <source srcset="./dist/github-snake-dark.svg" media="(prefers-color-scheme: dark)" />
+    <source srcset="./dist/github-snake.svg" media="(prefers-color-scheme: light)" />
+    <img src="./dist/github-snake.svg" alt="@randomguy-2650’s GitHub contribution grid as a snake game" />
+</picture>
